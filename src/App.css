@@ -1,0 +1,236 @@
+/* .App {
+  background-image: url(./Images/Nipah.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
+}  */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+/* .nav{
+  list-style-type: none; 
+  background-color:hsla(140, 73%, 9%, 0.845);
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.App-header {
+  
+  margin: 0px;
+  
+  align-items: center;  
+  
+  font-size: calc(10px + 2vmin);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+  color: white;
+}
+.about_anchor01,.Symptoms_anchor01,.Prevention_anchor01,.Testing{
+ 
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.about{
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+#about{
+  font-size: 24px;
+}
+#Symptoms{
+  font-size: 24px;
+}
+#Prevention{
+  font-size: 24px;
+}
+.anchor01{
+  padding: 15px;
+  display: block;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+/* } */
+/* .anchor01:hover{
+  background-color: hsla(141, 56%, 11%, 0.845);
+} */
+/* .nav li{
+  float: left;
+}
+.desc{
+  padding: 180px;
+  background-image: url(./Images/Nipah.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.App{
+  background-color: rgb(60, 62, 10);
+  color: white;
+}
+
+.input_box{
+  margin-left: 50px;
+  padding: 10px;
+  
+}
+.submit{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.test{
+  padding: 10px;
+  margin-left: 50px;
+}
+.SymptomsForm h3{
+  display: inline;
+}
+.submit_symptom_button{
+  padding:10px;
+  text-align: center;
+  margin-left :30%
+}
+.SymptomsForm{
+  
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #eeeeee;
+  display: flex;
+  font-family: sans-serif;
+  
+}
+.symp_form{
+  margin:auto;
+  width:500px;
+  max-width: 90%;
+}
+.symp_form form{
+  width:100%;
+  height:100%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0,0,0,3);
+}
+.bg-blue-500 {
+  background-color: #1746d4;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  color: white;
+  
+} */ 
+/* .App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+}
+
+.App-header {
+  background-color: #1e2a38;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+.nav li a:hover {
+  background-color: #3e4a5e;
+  border-radius: 5px;
+}
+
+.about_anchor01,
+.Symptoms_anchor01,
+.Prevention_anchor01 {
+  margin: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1, h4 {
+  color: #2c3e50;
+}
+
+ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.input_box {
+  padding: 10px;
+  width: 80%;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.submit {
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.desc{
+  height: 180px;
+  
+  background-repeat: no-repeat;
+  background-image:url(./Images/images.jpg);background-size: cover;
+  
+}
+.submit:hover {
+  background-color: #1b5cb8;
+}
+.Footer{
+  height: 150px;
+}
+
